@@ -8,7 +8,7 @@ Operating Julia version: 0.6.0
 
 ## Package dependencies
 
-The following packages should be installed prior to using JuliaMet:
+The following packages should be installed prior to using AtmosColors: 
 
 * [Colors](https://github.com/JuliaGraphics/Colors.jl)
 * [PyPlot](https://github.com/JuliaPy/PyPlot.jl)
