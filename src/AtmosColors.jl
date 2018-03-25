@@ -1,3 +1,5 @@
+__precompile__()
+
 module AtmosColors
 
     using Colors, PyPlot
