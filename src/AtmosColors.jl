@@ -8,5 +8,4 @@ module AtmosColors
 
     include("cmaps.jl")
 
-
 end # module
