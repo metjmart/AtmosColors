@@ -52,7 +52,7 @@ ncolors = number of discrete colors to be generated from input RGBs
 
 function create_cmap(name::AbstractString,ncolors::Any)
    
-    # Define path to JuliaMet and extend to colormaps directory
+    # Define path to AtmosColors and extend to colormaps directory
     path = []
     for ipath in LOAD_PATH
         if ismatch(r"AtmosColors",ipath)
@@ -82,8 +82,13 @@ Initialization of Python dependencies must occur at runtime
 function __init__()
     # Using create_cmap func
     create_cmap("bluegie",28)
+    create_cmap("blorg",56)
+    create_cmap("blorg2",72)
     create_cmap("carbone",56)
     create_cmap("carbone2",56)
+    create_cmap("ncl_def",216)
+    create_cmap("ncl_def2",56)
+    create_cmap("ncl_div",56)
     create_cmap("pyro",40)
     create_cmap("pyro_div",40)
     create_cmap("radar",56)
@@ -97,9 +102,5 @@ function __init__()
     [(0.0,1.0000,1.0000),(0.1,1.0000,1.0000),(0.2,0.68627,0.68627),(0.3,0.07843,0.07843),(0.5,0.00000,0.00000),(0.6,0.00000,0.00000),(0.7,0.0,0.0),(0.8,0.21176,0.21176),(0.9,0.42745,0.42745),(1.0,0.83137,0.83137)],56,1.0)
     PyPlot.register_cmap("radar3", radar3)
 end
-
-#==============================================================================
-Manually create colormaps 
-==============================================================================#
 
 
