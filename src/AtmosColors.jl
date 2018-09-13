@@ -2,7 +2,7 @@ __precompile__()
 
 module AtmosColors
 
-    using Colors, PyPlot
+    using Colors, PyPlot, DelimitedFiles
 
     export extract_rgbs, create_cmap
 
