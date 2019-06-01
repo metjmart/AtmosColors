@@ -35,7 +35,7 @@ for modules when calling `require`.
 
 To extend the `LOAD_PATH` variable, open the `~/.julia/config/startup.jl` file
 (or create it in the above specified directory if it doesn't exist) and add the following to the file
-(see the [Modules documentation](https://docs.julialang.org/en/stable/manual/modules/))
+(see the [Modules documentation](https://docs.julialang.org/en/v1/manual/modules/index.html))
 ```julia
 push!(LOAD_PATH, "/path/to/AtmosColors/src/")
 ```
